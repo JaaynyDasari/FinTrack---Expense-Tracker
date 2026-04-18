@@ -1,8 +1,30 @@
-# React + Vite
+# FinTrack - Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FinTrack is a responsive web application that helps users track and manage their daily income and expenses with real-time updates and visual insights.
 
-Currently, two official plugins are available:
+## Features
+- Add and delete income and expense transactions
+- Real-time balance calculation using dynamic state management
+- Data persistence using browser local storage
+- Basic data visualization to understand spending patterns
+- Clean and responsive user interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React.js
+- JavaScript
+- HTML
+- CSS
+
+## How It Works
+1. Users can add income or expense entries  
+2. Transactions are stored in local storage for persistence  
+3. The application updates balance and transaction list in real-time  
+4. Visual elements provide insights into spending behavior  
+5. Users can delete transactions to update their records  
+
+## Objective
+To build a user-friendly application for managing personal finances while implementing state management, data persistence, and basic data visualization.
+
+## Future Improvements
+- Integrate backend for multi-device access
+- Enhance visualization with advanced charts
